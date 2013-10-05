@@ -1,0 +1,4 @@
+GenCoding
+=========
+
+Generating NSCording code.
