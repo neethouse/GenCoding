@@ -255,9 +255,9 @@ module MethodStatus
 end
 
 module NGCCodingComments
-  HEADER1 = "/*!!!!! [NGCCODING_BEGIN] This is auto generated code by NGCCoding. !!!!!*/"
-  HEADER2 = "/*!!!!! [NGCCODING_BEGIN] Do not change this area.                  !!!!!*/"
-  FOOTER  = "/*!!!!! [NGCCODING_END] End of auto generation.                     !!!!!*/"
+  HEADER1 = "/*! [NGCCODING_BEGIN] This is auto generated code by NGCCoding. !*/"
+  HEADER2 = "/*! [NGCCODING_BEGIN] Do not change this area.                  !*/"
+  FOOTER  = "/*! [NGCCODING_END] End of auto generation.                     !*/"
 
   TRIMED_HEADER1 = HEADER1.strip.split(" ").join
   TRIMED_HEADER2 = HEADER2.strip.split(" ").join
@@ -762,9 +762,9 @@ class SourceWriter
 - (instancetype)initWithCoder:(NSCoder *)aDecoder {
     self = [super init];
     if (self) {
-        /*!!!!! [NGCCODING_BEGIN] This is auto generated code by NGCCoding. !!!!!*/
-        /*!!!!! [NGCCODING_BEGIN] Do not change this area.                  !!!!!*/
-        /*!!!!! [NGCCODING_END] End of auto generation.                     !!!!!*/
+        /*! [NGCCODING_BEGIN] This is auto generated code by NGCCoding. !*/
+        /*! [NGCCODING_BEGIN] Do not change this area.                  !*/
+        /*! [NGCCODING_END] End of auto generation.                     !*/
     }
     return self;
 }
@@ -773,9 +773,9 @@ EOS
     when "encode"
       <<EOS
 - (void)encodeWithCoder:(NSCoder *)aCoder {
-    /*!!!!! [NGCCODING_BEGIN] This is auto generated code by NGCCoding. !!!!!*/
-    /*!!!!! [NGCCODING_BEGIN] Do not change this area.                  !!!!!*/
-    /*!!!!! [NGCCODING_END] End of auto generation.                     !!!!!*/
+    /*! [NGCCODING_BEGIN] This is auto generated code by NGCCoding. !*/
+    /*! [NGCCODING_BEGIN] Do not change this area.                  !*/
+    /*! [NGCCODING_END] End of auto generation.                     !*/
 }
 
 EOS
